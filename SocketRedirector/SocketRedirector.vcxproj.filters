@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\ISocketService.h" />
+    <ClInclude Include="include\SocketRedirector.h" />
+    <ClInclude Include="include\TCPService.h" />
+    <ClInclude Include="include\UDPService.h" />
+    <ClInclude Include="src\Utility.h" />
+    <ClInclude Include="include\IPEndPoint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SocketRedirector.cpp" />
+    <ClCompile Include="src\TCPService.cpp" />
+    <ClCompile Include="src\Utility.cpp" />
+    <ClCompile Include="src\UDPService.cpp" />
+  </ItemGroup>
+</Project>
